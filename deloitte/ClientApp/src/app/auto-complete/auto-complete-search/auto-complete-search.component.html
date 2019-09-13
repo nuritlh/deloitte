@@ -1,0 +1,19 @@
+<!--search input-->
+<div class="flex justify-center">
+  <div class="ui action input">
+    <input #filterValue type="text" [(ngModel)]="txtQuery" (ngModelChange)="onFieldChange($event)"
+      placeholder="Search...">
+    <button class="ui button" (click)="onSearch()"><i class="search icon"></i></button>
+  </div>
+</div>
+
+<!--autocomlete-->
+<div class="autoComplete-container" *ngIf="autoCompleteResults.length > 0">
+  <div class="flex result-row" *ngFor="let employee of autoCompleteResults">
+    <img class="auto-complete-result-img" [src]="employee.imageUrl" alt="employee-avatar">
+    <div>
+      <p innerHTML="{{ employee.name | highlight : txtQuery }}" class="auto-complete-result-name"></p>
+      <p innerHTML="{{ employee.workTitle | highlight : txtQuery }}" class="auto-complete-result-title"></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="employees">
+  <h2 class="deloitte-logo">Deloitte<span class="dot"></span></h2>
+  <div>
+    <h1 class="title">LOOKING FOR AN EMPLOYEE?</h1>
+    <p class="center">Click on the search to learn our suggestions</p>
+  </div>
+
+  <!--search input-->
+  <app-auto-complete-search (getResults)="getResults($event)" ></app-auto-complete-search>
+
+  <!--results-->
+  <p *ngIf="!filteredEmployees"><em>Loading...</em></p>
+  <app-search-results [filteredEmployees]="filteredEmployees" *ngIf="filteredEmployees.length > 0"></app-search-results>
+</div>
+
+
+
