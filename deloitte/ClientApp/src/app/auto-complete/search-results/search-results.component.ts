@@ -1,6 +1,4 @@
 import { Component, Inject, Input  } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
 
 @Component({
   selector: 'app-search-results',
