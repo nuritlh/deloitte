@@ -82,6 +82,30 @@ namespace deloitte.Models
                     ImageUrl = "Darth_Vader.jpg",
                     WorkTitle = "FrontEnd Developer",
                     Name = "Darth Vader"
+                  },
+                new Person()
+                  {
+                    ImageUrl = "Maximus.jpg",
+                    WorkTitle = "FrontEnd Developer",
+                    Name = "Maximus"
+                  },
+                new Person()
+                  {
+                    ImageUrl = "Legolas.jpg",
+                    WorkTitle = "FrontEnd Developer",
+                    Name = "Legolas"
+                  },
+                new Person()
+                  {
+                    ImageUrl = "Wednesday_Addams.jpg",
+                    WorkTitle = "FrontEnd Developer",
+                    Name = "Wednesday Addams"
+                  },
+                new Person()
+                  {
+                    ImageUrl = "Inigo_Montoya.jpg",
+                    WorkTitle = "Backend Developer",
+                    Name = "Inigo Montoya"
                   }
             };
         }
