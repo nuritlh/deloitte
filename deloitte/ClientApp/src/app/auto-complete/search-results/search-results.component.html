@@ -4,7 +4,8 @@
   <div class="flex justify-center width-100">
     <div class="results-container">
       <div class="flex result-row" *ngFor="let employee of filteredEmployees">
-        <img class="auto-complete-result-img" [src]="employee.imageUrl" alt="employee-avatar">
+        <img class="auto-complete-result-img" [src]="'../../assets/images/deloitteImg/' + employee.imageUrl"
+          alt="employee-avatar">
         <div>
           <p class="auto-complete-result-name">{{employee.name}}</p>
           <p class="auto-complete-result-title">{{employee.workTitle}}</p>

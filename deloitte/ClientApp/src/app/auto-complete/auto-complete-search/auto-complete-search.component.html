@@ -10,10 +10,13 @@
 <!--autocomlete-->
 <div class="autoComplete-container" *ngIf="autoCompleteResults.length > 0">
   <div class="flex result-row" *ngFor="let employee of autoCompleteResults">
-    <img class="auto-complete-result-img" [src]="employee.imageUrl" alt="employee-avatar">
+    <img class="auto-complete-result-img" [src]="'../../assets/images/deloitteImg/' + employee.imageUrl"
+      alt="employee-avatar">
     <div>
       <p innerHTML="{{ employee.name | highlight : txtQuery }}" class="auto-complete-result-name"></p>
       <p innerHTML="{{ employee.workTitle | highlight : txtQuery }}" class="auto-complete-result-title"></p>
     </div>
   </div>
 </div>
+
+<!-- ../../assets/images/deloitteImg -->

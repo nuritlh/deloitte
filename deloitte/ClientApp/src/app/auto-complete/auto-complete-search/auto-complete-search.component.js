@@ -64,62 +64,62 @@ var AutoCompleteSearch = /** @class */ (function () {
 exports.AutoCompleteSearch = AutoCompleteSearch;
 var employeesData = [
     {
-        imageUrl: '../../assets/images/deloitteImg/Jack_Sparrow.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Jack_Sparrow.jpg',
         workTitle: 'Manager',
         name: 'Captain Jack Sparrow'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/The_Joker.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/The_Joker.jpg',
         workTitle: 'Team Leader',
         name: 'The Joker'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Gandalf.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Gandalf.jpg',
         workTitle: 'CEO',
         name: 'Gandalf'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Ariel.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Ariel.jpg',
         workTitle: 'Administrative Director',
         name: 'Ariel'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Agent_J.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Agent_J.jpg',
         workTitle: 'Administrative',
         name: 'Agent J'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Captian_America.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Captian_America.jpg',
         workTitle: 'Team Leader',
         name: 'Captain America'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/The_Bride.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/The_Bride.jpg',
         workTitle: 'Legal Secretary',
         name: 'The Bride'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Cinderella.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Cinderella.jpg',
         workTitle: 'Direct Salesperson',
         name: 'Cinderella'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Zoolander.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Zoolander.jpg',
         workTitle: 'Mailroom Personnel',
         name: 'Zoolander'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Dorothy.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Dorothy.jpg',
         workTitle: 'Buyer',
         name: 'Dorothy'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Ghostface.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Ghostface.jpg',
         workTitle: 'Buyer',
         name: 'Ghostface'
     },
     {
-        imageUrl: '../../assets/images/deloitteImg/Darth_Vader.jpg',
+        ImageUrl: '../../assets/images/deloitteImg/Darth_Vader.jpg',
         workTitle: 'FrontEnd Developer',
         name: 'Darth Vader'
     }
