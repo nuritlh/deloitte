@@ -7,8 +7,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Development setup
 
- 1. `npm install` -> to install dependencies
- 2. `dotnet run` -> nevigate to deloitte folder to run the app on your loacalhost (please make sure https://localhost:5001 is available)
+1. in `ClientApp` folder:
+  1. `npm install` -> to install dependencies
+  2.  `npm run-script buiild` -> to buld the app
+
+2. im `deloitte` sub folder
+  2. `dotnet run` -> run the app on your loacalhost (please make sure https://localhost:5001 is available)
 
 
 
